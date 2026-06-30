@@ -1,0 +1,11 @@
+# 依赖包目录
+node_modules/
+.pnpm-store/
+
+# VitePress 编译打包生成的产物目录
+docs/.vitepress/dist
+docs/.vitepress/cache
+
+# 系统或编辑器缓存
+.DS_Store
+.vscode/
