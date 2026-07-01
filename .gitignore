@@ -9,3 +9,10 @@ docs/.vitepress/cache
 # 系统或编辑器缓存
 .DS_Store
 .vscode/
+
+# wrangler files
+.wrangler
+.dev.vars*
+!.dev.vars.example
+.env*
+!.env.example
