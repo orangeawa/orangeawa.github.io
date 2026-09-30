@@ -9,3 +9,6 @@ docs/.vitepress/cache
 # 系统或编辑器缓存
 .DS_Store
 .vscode/
+
+# AI 工具的本地记忆目录
+.workbuddy-ai/
