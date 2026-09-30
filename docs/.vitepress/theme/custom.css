@@ -1,0 +1,9 @@
+/* medium-zoom 注入的样式不带 z-index（默认 auto），
+   会被 VPNav(30)、VPSidebar(60) 遮挡，这里抬高到它们之上 */
+.medium-zoom-overlay {
+  z-index: 999;
+}
+
+.medium-zoom-image--opened {
+  z-index: 1000;
+}
