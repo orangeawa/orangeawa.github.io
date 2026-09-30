@@ -21,8 +21,22 @@ export default defineConfig({
       }
     ],
 
+    outline: {
+      level: [1, 2],
+      label: '本文目录'
+    },
+
     socialLinks: [
       { icon: 'github', link: 'https://github.com/vuejs/vitepress' }
-    ]
-  }
+    ],
+
+    footer: {
+      message: 'Released under the MIT License.',
+      copyright: 'Copyright © 2019-present Orange'
+    },
+    lastUpdated: {
+      text: '上次更新',
+    }
+  },
+  lastUpdated: true
 })

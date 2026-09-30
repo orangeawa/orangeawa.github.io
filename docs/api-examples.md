@@ -1,5 +1,6 @@
 ---
 outline: deep
+lastUpdated: true
 ---
 
 # 运行时 API 示例
@@ -12,7 +13,7 @@ outline: deep
 <script setup>
 import { useData } from 'vitepress'
 
-const { theme, page, frontmatter } = useData()
+const { theme, page, frontmatter, lastUpdated } = useData()
 </script>
 
 ## 运行结果
@@ -25,6 +26,9 @@ const { theme, page, frontmatter } = useData()
 
 ### 页面 Frontmatter
 <pre>{{ frontmatter }}</pre>
+
+### 上次更新
+<pre>{{ lastUpdated }}</pre>
 ```
 
 <script setup>
@@ -43,6 +47,9 @@ const { site, theme, page, frontmatter } = useData()
 
 ### 页面 Frontmatter
 <pre>{{ frontmatter }}</pre>
+
+### 上次更新
+<pre>{{ page.lastUpdated }}</pre>
 
 ## 更多
 
